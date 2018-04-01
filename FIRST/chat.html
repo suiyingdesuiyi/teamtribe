@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>聊天界面</title>
+	<link rel="icon" href="./image/icon.ico" type="image/x-icon"/>
+	<link href="chat.css" type="text/css" rel="stylesheet"/>
+	<script type="text/javascript" src="config.js">
+    </script>
+	<script type="text/javascript" src="functions.js">
+	</script>
+</head>
+<body onload="show_name()">
+<div id="main">
+<div id="right">
+<em id="portrait">
+
+<input type="file" id="file" onchange="upload(this,'upload')">
+
+<img src=".\image\person.png" id="upload">
+</em>
+<div id="search">
+<input  id="btn_search" type="button" onclick="get_byName()"/>
+<input  class="search_text" type="text" id="info" placeholder="搜索好友/社团"/>
+</div>
+<a title="信息"><input id="news" type="button" onclick="getMessage()"/></a>
+<span id="show_name" class="show_name">未登入</span>
+<p class="bar">
+<a href="#" onclick="friends()">我的好友</a><span class="bold">></span>
+<a href="#">我加入的社团</a><span class="bold">></span>
+<a href="#">我管理的社团</a>
+</p>
+<div id="content">
+</div>
+</div>	
+<div id="left">
+<div id="record">
+</div>
+<div id="edit">
+<div id="tools">
+<input type="button" id="btn1"/>
+<input type="button" id="btn2"/>
+<input type="button" id="btn3"/>
+<input type="button" id="btn4"/>
+<input type="button" id="btn5"/>
+</div>
+<input type="button"  id="send" value="发送"/>
+<input type="button"  id="close" value="关闭"/>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,222 @@
+#main
+{
+  height:650px;
+  width:1300px;
+  margin-left:10px;
+}
+#right{
+  margin-top:10px;
+  margin-right:90px;
+  width:290px;
+  height:500px;
+  border:3px solid #99FFCC;
+  float:right;
+  background: url(./image/coin.jpg) no-repeat;
+  background-position:50% 75%;
+  background-size: 83% 63%;
+  opacity: 0.9;
+}
+#content
+{
+  width:290px;
+  height:350px;
+
+}
+#left{
+	width:780px;
+	height:600px;
+	margin-top:15px;
+	margin-left:110px;
+}
+#record{
+  margin-top:5px;
+	height:400px;
+	width:750px;
+	margin-left:10px;
+	border:3px solid #99FFCC;
+	background:url(./image/liaotian.png) no-repeat center center;
+	opacity:0.7;  
+
+
+}
+#edit{
+	margin-top:5px;
+	border:3px solid #99FFCC;
+	width:750px;
+	margin-left:10px;
+	height:140px;
+
+}
+
+.bold
+{
+  font-weight:bolder;
+}
+.bar
+{
+  margin-top:30px;
+  font-size:15px;
+}
+.show_name
+{
+  font-size:14px;
+  padding-left:100px;
+  margin-top:10px;
+  display:block;
+  overflow: hidden;
+  padding-left:120px;
+}
+span:hover
+{
+  cursor: pointer;
+}
+#search
+{
+  width:135px;
+  height:23px;
+  margin-left:100px;
+  margin-top:20px;
+  border-radius:10px;
+  border:1px solid black;
+}
+.search_text
+{
+  /*background: url(./image/fangdajing.png) no-repeat left center;*/
+  width:100px;
+  border: none;
+}
+.search_text::-moz-placeholder {
+         /* placeholder颜色  */
+        color:black;
+        /* placeholder字体大小  */
+        font-size: 14px;
+         /* placeholder位置  */
+        text-align: right;
+
+   }
+   a{
+    text-decoration: none;
+    color:black;
+   }
+   a:hover
+   {
+     color:blue;
+     cursor: pointer;
+   }
+
+#tools
+   {
+      width:120px;
+      height:20px;
+   }
+#btn_search
+{
+  background: url(./image/fangdajing.png) no-repeat left center;
+  border:none;
+  margin-left:2px;
+}
+#news
+{
+  float:right;
+  width:27px;
+  height:25px;
+  margin-right: 15px;
+  margin-top:8px;
+ background: url(./image/xinxi.png) no-repeat;
+ background-size: 100% 110%;
+}
+#btn1
+{
+  background: url(./image/jiandao.png) no-repeat center center;
+}
+#btn2
+{
+  background: url(./image/wenjian.png) no-repeat center center;
+}
+#btn3
+{
+  background: url(./image/xiang.png) no-repeat center center;
+}
+#btn4
+{
+  background: url(./image/cha.png) no-repeat center center;
+}
+#btn5
+{
+  background: url(./image/chazhao.png) no-repeat center center;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5
+{
+   border: none;
+   margin: 0px 1px 0px 1px;
+}
+#btn,#btn1,#btn2,#btn3,#btn4,#btn5,#send,#close:hover
+{
+  cursor: pointer;
+}
+#send,#close
+{
+  width:70px;
+  height:27px;
+  float:right;
+  margin-right:30px;
+  margin-top: 75px;
+  border-radius:5px;
+  background-color: transparent;
+}
+.information
+{
+  width:290px;
+  background-color:#CDB79E;
+  line-height:20px;
+  margin-top:3px;
+  display:block;
+}
+.information:hover
+{
+  background-color: #CD853F;
+}
+.add,.more,.chat
+{
+  width:25px;
+  height:20px;
+  float:right;
+  background-size: 100% 100%;
+  margin-right:20px;
+  border:none;
+}
+.add
+{
+  background: url(./image/tianjia.png) no-repeat center center;
+}
+.more
+{
+  background: url(./image/xiangxi.png) no-repeat center center;
+}
+.chat
+{
+  background: url(./image/chat.png) no-repeat center center;
+}
+#upload
+{
+  height: 85px; 
+  width: 85px;
+}
+#file
+{
+  opacity:0; 
+  height: 85px;
+   width: 85px;
+   position: absolute; 
+   top: 0; 
+   left: 0;
+  z-index: 9;
+}
+#portrait
+{
+  width: 85px;
+  display: block;
+  position: absolute;
+  float:left;
+}
+

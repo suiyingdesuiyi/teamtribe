@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>上传文件</title>
+</head>
+<script type="text/javascript">
+var token=sessionStorage.getItem("token");
+$("#file").on("change",function(){
+	var formData.append("file"m$("#file")[0].files[0]);
+	$.ajax({
+		url:"http://111.230.116.176:8080/portrait/upload",
+        type:"POST",
+        data:{ image:formData,
+        	   TeamTribeToken:token,
+        	 }
+        processData:false,
+        contentType:false,
+        success:function(response){
+        	alert("photo");
+        }
+	});
+});
+</script>
+<body>
+<form>
+ <input type="file" name="file" id="file">
+ </form>	
+</body>
+</html>

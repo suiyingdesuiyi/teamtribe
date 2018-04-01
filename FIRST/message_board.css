@@ -1,0 +1,63 @@
+#message_area{
+	height:150px;
+	width:570px;
+	border-radius: 10px 10px 10px 10px;
+	background: url(./image/message_area.png) top left;
+	background-size: 100% 100%;
+}
+.write_message{
+	margin-top:20px;
+	width:550px;
+	margin-left:5px;
+	height:110px;
+	border:none;
+	resize: none;
+}
+.write_message::-moz-placeholder{
+     text-align:center;
+     line-height:80px;
+    }  
+#comment_list
+{
+	margin-top:50px;
+	background-color: #F1C232;
+	height:250px;
+	width:570px;
+	position: relative;
+}
+#welcome_area
+{
+	background-color: silver;
+	height:340px;
+	width:570px;
+	margin-left:760px;
+	margin-top:40px;
+}
+#comment_center{
+	margin-top:40px;
+	background: red;
+	width:250px;
+	height:20px;
+	margin-left:150px;
+	position: absolute;
+	z-index:1;
+}
+#left
+{
+	width:620px;
+	height:520px;
+	margin-left:50px;
+	position: relative;
+	float:left;
+}
+.welcome{
+	font-size:24px;
+	display:block;
+	text-align:center;
+}
+.logo{
+	display:block;
+	margin-top:30px;
+	text-align:center;
+	float:right;
+}

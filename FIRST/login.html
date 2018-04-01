@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+<link rel="icon" href="./image/icon.ico" type="image/x-icon"/>
+<title>社团格子</title>
+<link href="login.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="config.js">
+</script>
+<script src="md5.js">
+</script>
+<script type="text/javascript" src="functions.js">
+</script>
+</head>
+<body>
+<div id="main">
+<div id="nav">
+<ul>Contact</ul>
+<ul>Element</ul>
+<ul id="dropdown">Dropdown<li>1</li><li>2</li></ul>
+<ul>Services</ul>
+<ul>Home</ul>
+<div id="login">
+<div class="text_bg">
+<input  class="text" type="text" id="username" placeholder="用户名" maxlength:"32"/>
+</div>
+<div class="text_bg">
+<input  class="text" type="password" id="pwd" placeholder="密码"/>
+</div>
+<span   id="error">用户名或密码不正确</span>
+<input  name="btn" class="btn" type="button"  value="登入" onclick="login()"/>
+<input  name="btn" class="btn" type="button"  value="重置" onclick="reset()"/>
+</div>
+<div id="photo_right">
+</div>
+</div>
+<div id="photo_center">
+<span id="Chinese">社团格子</span>
+<span id="English">Community Lattice</span>
+</div>
+<div id="loading"> 
+加载中....
+</div>
+<div id="coin">
+<img src=".\image\coin.jpg"/>
+<div id="photo_left">
+</div>
+
+</div>
+</div>	
+</body>
+</html>
