@@ -1,5 +1,5 @@
 var config={
-	url_login:"http://111.230.116.176:8080/user/login",
+	url_login:"https://111.230.116.176:8080/user/login",
 	url_byName:"http://111.230.116.176:8080/search/byName",
 	url_byId:"http://111.230.116.176:8080/userInfo/getById",
 	url_sendRequest:"http://111.230.116.176:8080/relation/sendRequest",
